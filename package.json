@@ -1,5 +1,5 @@
 {
-  "name": "ms-form",
+  "name": "ms-form-js",
   "version": "0.0.1",
   "private": false,
   "type": "module",
@@ -9,8 +9,8 @@
   ],
   "license": "ISC",
   "author": {
-    "name": "ms-form",
-    "email": "ms-form@test.com"
+    "name": "ms-form-js",
+    "email": "ms-form-js@test.com"
   },
   "files": [
     "dist",
@@ -76,7 +76,7 @@
   "description": "基于vue3 + vite的组件库模板",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themusecatcher/ms-form.git"
+    "url": "git+https://github.com/themusecatcher/ms-form-js.git"
   },
   "browserslist": [
     "> 1%",

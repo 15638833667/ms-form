@@ -7,7 +7,7 @@
 
 declare module '*.js'
 declare module '*.gz'
-declare module 'ms-form'
+declare module 'ms-form-js'
 declare module 'naive-ui'
 declare module '*.json'
 declare module 'minimist'

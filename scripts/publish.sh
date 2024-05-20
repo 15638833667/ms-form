@@ -15,8 +15,8 @@ echo "commit信息：$1"
 echo "----- npm run build -----"
 npm run build
 
-# 升级 ms-form 依赖版本
-# pnpm up ms-form@$version
+# 升级 ms-form-js 依赖版本
+# pnpm up ms-form-js@$version
 
 # 提交版本更新代码到github
 echo "----- git add . -----"

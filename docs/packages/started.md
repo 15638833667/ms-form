@@ -6,19 +6,19 @@
 ::: code-group
 
 ```sh [npm]
-$ npm add ms-form
+$ npm add ms-form-js
 ```
 
 ```sh [pnpm]
-$ pnpm add ms-form
+$ pnpm add ms-form-js
 ```
 
 ```sh [yarn]
-$ yarn add ms-form
+$ yarn add ms-form-js
 ```
 
 ```sh [bun]
-$ bun add ms-form
+$ bun add ms-form-js
 ```
 
 :::
@@ -31,8 +31,8 @@ $ bun add ms-form
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import MsForm from 'ms-form'
-import 'ms-form/css'
+import MsForm from 'ms-form-js'
+import 'ms-form-js/css'
 
 const app = createApp(App)
 app.use(MsForm)
@@ -44,8 +44,8 @@ app.mount('#app')
 
 ```vue
 <script setup lang="ts">
-import { Button } from 'ms-form'
-import 'ms-form/css'
+import { Button } from 'ms-form-js'
+import 'ms-form-js/css'
 </script>
 
 <template>

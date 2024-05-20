@@ -1,1 +1,1 @@
-# ms-form init
+# ms-form-js init

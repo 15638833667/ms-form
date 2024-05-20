@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "ms-form"
+  name: "ms-form-js"
   text: ""
   tagline: My great project tagline
   actions:
