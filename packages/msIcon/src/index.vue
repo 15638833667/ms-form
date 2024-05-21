@@ -1,10 +1,13 @@
 
 <template>
   <svg :class="svgClass" aria-hidden="true">
-    <use :xlink:href="iconClassName" :fill="color" />
+    <use :xlink:href="iconClassName" class="ms-svg-icon-use" :fill="color" />
   </svg>
 </template>
 <script setup lang="ts">
+defineOptions({
+  name: 'MsIcon',
+});
 import { computed } from 'vue';
 const props = defineProps({
   iconName: {
@@ -35,11 +38,8 @@ const svgClass = computed(() => {
 });
 </script>
 <style lang="scss" scoped>
-.svg-icon {
-  width: 1em;
-  height: 1em;
-  position: relative;
-  fill: currentColor;
-  vertical-align: -2px;
+.ms-svg-icon-use {
+  width: 100%;
+  height: 100%;
 }
 </style>

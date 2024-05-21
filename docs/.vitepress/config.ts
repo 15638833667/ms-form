@@ -33,6 +33,10 @@ export default defineConfig({
             {
               text: '按钮 Button',
               link: '/packages/components/button'
+            },
+            {
+              text: '图标 Icon',
+              link: '/packages/components/icon'
             }
           ]
         }

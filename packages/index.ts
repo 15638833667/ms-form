@@ -4,6 +4,9 @@ import type { App } from 'vue'
 import MsButton from './msButton'
 import MsIcon from './msIcon'
 
+console.log('MsButton', MsButton)
+console.log('MsIcon', MsIcon)
+
 // 所有组件列表
 const components = [
   MsButton,
@@ -20,7 +23,8 @@ const install = (app: App): void => {
     解决方式一：使用// @ts-ignore
     解决方式二：使用类型断言 尖括号语法(<string>component.__name) 或 as语法(component.__name as string)
   */
-  components.forEach(component => app.component(component.__name as string, component))
+  console.log('components', components)
+  components.forEach(component => app.component(component.name, component))
 }
 
 export {

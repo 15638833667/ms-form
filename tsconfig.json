@@ -5,6 +5,7 @@
     "src/**/*",
     "src/**/*.vue",
     "packages/**/*.ts",
+    "packages/**/**/*.vue",
     "packages/**/*.vue",
     "packages/**/*.tsx",
     "src/**/*.tsx",

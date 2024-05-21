@@ -1,10 +1,14 @@
 
 <template>
-  <el-button class="ms-bpmn-test-button" :type="type" :size="size" :disabled="disabled" :loading="loading" @click="onClick">
+  <el-button class="ms-button" :type="type" :size="size" :disabled="disabled" :loading="loading" @click="onClick">
     <slot>{{ name }}</slot>
   </el-button>
 </template>
 <script setup lang="ts">
+
+defineOptions({
+  name: 'MsButton'
+})
 
 interface Props {
   name?: string // 按钮文本 string | slot
@@ -22,7 +26,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 const emit = defineEmits(['click'])
 
-console.log('props', props)
+// console.log('props', props)
 
 function onClick (e: Event) {
   emit('click', e)
